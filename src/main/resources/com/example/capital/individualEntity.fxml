@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" style="-fx-background-color: #c3fbce;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.capital.controllers.IndividualEntityController">
+   <children>
+      <ImageView fitHeight="422.0" fitWidth="307.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@logo.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="entity" alignment="CENTER" layoutX="341.0" layoutY="14.0" prefHeight="131.0" prefWidth="743.0" text="[ENTITY_NAME]" wrapText="true">
+         <font>
+            <Font name="Eras Demi ITC" size="57.0" />
+         </font>
+      </Label>
+      <Label fx:id="numCorrect" layoutX="494.0" layoutY="256.0" text="Times answered correctly: [NUM_CORRECT]">
+         <font>
+            <Font name="Eras Demi ITC" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="capital" layoutX="494.0" layoutY="181.0" text="Capital: [CAPITAL_NAME]">
+         <font>
+            <Font name="Eras Demi ITC" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="numTotal" layoutX="494.0" layoutY="331.0" text="Total times answered: [NUM_TOTAL]">
+         <font>
+            <Font name="Eras Demi ITC" size="22.0" />
+         </font>
+      </Label>
+      <Button layoutX="579.0" layoutY="611.0" mnemonicParsing="false" onAction="#back" prefHeight="74.0" prefWidth="160.0" stylesheets="@styles.css" text="Back">
+         <font>
+            <Font name="Eras Demi ITC" size="33.0" />
+         </font>
+      </Button>
+      <Label fx:id="difficulty" layoutX="494.0" layoutY="556.0" text="Difficulty: [DIFFICULTY]">
+         <font>
+            <Font name="Eras Demi ITC" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="totalTime" layoutX="494.0" layoutY="406.0" text="Total time spent: [TOTAL_TIME]">
+         <font>
+            <Font name="Eras Demi ITC" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="avgTime" layoutX="494.0" layoutY="481.0" text="Average time spent: [AVG_TIME]">
+         <font>
+            <Font name="Eras Demi ITC" size="22.0" />
+         </font>
+      </Label>
+      <Hyperlink layoutX="950.0" layoutY="259.0" onAction="#goToIncorrectAnswers" text="View incorrect answers">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Button layoutX="317.0" layoutY="68.0" mnemonicParsing="false" onAction="#onLeftArrowClick" prefHeight="9.0" prefWidth="12.0" stylesheets="@styles.css" text="&lt;">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="1097.0" layoutY="68.0" mnemonicParsing="false" onAction="#onRightArrowClick" prefHeight="9.0" prefWidth="12.0" stylesheets="@styles.css" text="&gt;">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Button>
+      <ChoiceBox fx:id="showStatsFor" layoutX="128.0" layoutY="54.0" prefWidth="150.0" stylesheets="@styles.css" />
+      <Label layoutX="34.0" layoutY="57.0" text="Show stats for">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

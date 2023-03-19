@@ -1,0 +1,120 @@
+.default-color0.chart-bar {
+  -fx-bar-fill: black;
+}
+
+.chart-pie {
+  -fx-border-color: black;
+}
+
+.data0.chart-pie {
+ -fx-pie-color: black;
+}
+.data1.chart-pie {
+ -fx-pie-color: white;
+}
+
+.default-color0.chart-series-line {
+  -fx-stroke: #000000;
+}
+
+
+.choice-box {
+  -fx-background-color: white;
+  -fx-border-color: black;
+  -fx-font-family: "Eras Demi ITC";
+}
+
+.choice-box .label {
+
+}
+
+.choice-box: hover, .choice-box: focused {
+  -fx-background-color: rgb(220, 220, 220);
+}
+
+.choice-box .arrow, .choice-box .arrow-button, .choice-box .checkmark {
+    -fx-background-color: black;
+}
+
+.choice-box: pressed, .choice-box: armed {
+  -fx-background-color: black;
+}
+
+.choice-box: pressed .label, .choice-box: armed .label {
+  -fx-text-fill: white;
+}
+
+
+.choice-box: pressed .arrow, .choice-box: pressed .arrow-button
+  , .choice-box: armed .arrow, .choice-box: armed .arrow-button {
+  -fx-background-color: white;
+}
+
+.choice-box .context-menu {
+  -fx-background-color: white;
+  -fx-border-color: black;
+  -fx-font-family: "Eras Demi ITC";
+  -fx-effect: null;
+  -fx-mark-color: black;
+}
+
+.choice-box .menu-item:focused {
+  -fx-background-color: black;
+  -fx-text-fill: white;
+}
+
+.check-box .box {
+  -fx-background-color:white;
+  -fx-border-color: black;
+}
+
+.check-box:selected .mark {
+  -fx-background-color: black;
+}
+
+.button {
+  -fx-border-radius: 10px;
+  -fx-background-radius: 10px;
+  -fx-background-color: white;
+  -fx-border-color: black;
+}
+
+.slider .track {
+ -fx-height: 6px;
+ -fx-background-color: white;
+ -fx-border-color: black;
+ -fx-border-width: 1px;
+ -fx-border-radius: 3px;
+ -fx-background-radius: 3px;
+}
+
+.slider .thumb {
+  -fx-background-color: white;
+  -fx-border-color: black;
+  -fx-border-radius: 8px;
+  -fx-background-radius: 8px;
+}
+
+.text-field, .text-area {
+  -fx-background-color: white;
+  -fx-border-color: black;
+  -fx-border-width: 2px;
+}
+
+.check-box .box:hover, .check-box:focused .box, .slider:focused .track, .slider:focused .thumb
+, .button:hover, .button:focused {
+  -fx-background-color: rgb(220, 220, 220);
+}
+
+.button:pressed, .button:armed, .check-box:pressed .box, .check-box:armed .box {
+  -fx-background-color: black;
+  -fx-text-fill: white;
+}
+
+.check-box:pressed .mark, .check-box:armed .mark {
+  -fx-background-color: white;
+}
+
+.small-text-field {
+  -fx-padding: 1px;
+}

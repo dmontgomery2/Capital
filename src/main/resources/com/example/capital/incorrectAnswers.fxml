@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" style="-fx-background-color: #c3fbce;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.capital.controllers.IncorrectAnswersController">
+   <children>
+      <ImageView fitHeight="422.0" fitWidth="307.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@logo.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="720.0" layoutY="617.0" mnemonicParsing="false" onAction="#onBackButtonClick" prefHeight="55.0" prefWidth="118.0" stylesheets="@styles.css" text="Back">
+         <font>
+            <Font name="Eras Demi ITC" size="30.0" />
+         </font></Button>
+      <BarChart fx:id="chart" animated="false" layoutX="328.0" layoutY="40.0" legendVisible="false" prefHeight="430.0" prefWidth="851.0" stylesheets="@styles.css">
+        <xAxis>
+          <CategoryAxis fx:id="chartX" animated="false" label="Incorrect Answer" side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="chartY" animated="false" label="Number Of Times" side="LEFT" upperBound="9.0" />
+        </yAxis>
+      </BarChart>
+      <Label fx:id="titleLabel" layoutX="578.0" layoutY="14.0" text="Incorrect answers for [ENTITY_NAME]">
+         <font>
+            <Font name="Eras Demi ITC" size="21.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="showStatsFor" layoutX="138.0" layoutY="64.0" prefWidth="150.0" stylesheets="@styles.css" />
+      <Label layoutX="44.0" layoutY="67.0" text="Show stats for">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

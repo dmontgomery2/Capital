@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" style="-fx-background-color: #c3fbce;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.capital.controllers.EditStateDifficultiesController">
+   <children>
+      <Button layoutX="1038.0" layoutY="503.0" mnemonicParsing="false" onAction="#onSubmit" stylesheets="@styles.css" text="Submit">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></Button>
+      <Button layoutX="1039.0" layoutY="557.0" mnemonicParsing="false" onAction="#onCancel" stylesheets="@styles.css" text="Cancel">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></Button>
+      <ImageView fitHeight="422.0" fitWidth="307.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@logo.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="alabama" alignment="CENTER" layoutX="623.0" layoutY="31.0" prefHeight="18.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></TextField>
+      <TextField fx:id="alaska" alignment="CENTER" layoutX="623.0" layoutY="64.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></TextField>
+      <TextField fx:id="arizona" alignment="CENTER" layoutX="623.0" layoutY="97.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="arkansas" alignment="CENTER" layoutX="623.0" layoutY="130.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="california" alignment="CENTER" layoutX="623.0" layoutY="163.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="colorado" alignment="CENTER" layoutX="623.0" layoutY="196.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="connecticut" alignment="CENTER" layoutX="623.0" layoutY="229.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="delaware" alignment="CENTER" layoutX="623.0" layoutY="262.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="florida" alignment="CENTER" layoutX="623.0" layoutY="295.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="georgiaState" alignment="CENTER" layoutX="623.0" layoutY="328.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="hawaii" alignment="CENTER" layoutX="623.0" layoutY="361.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="idaho" alignment="CENTER" layoutX="623.0" layoutY="394.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="illinois" alignment="CENTER" layoutX="623.0" layoutY="427.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="indiana" alignment="CENTER" layoutX="623.0" layoutY="460.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="iowa" alignment="CENTER" layoutX="623.0" layoutY="493.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="kansas" alignment="CENTER" layoutX="623.0" layoutY="526.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="kentucky" alignment="CENTER" layoutX="623.0" layoutY="559.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="louisiana" alignment="CENTER" layoutX="623.0" layoutY="592.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="maine" alignment="CENTER" layoutX="623.0" layoutY="625.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="maryland" alignment="CENTER" layoutX="623.0" layoutY="658.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="massachusetts" alignment="CENTER" layoutX="749.0" layoutY="31.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="michigan" alignment="CENTER" layoutX="749.0" layoutY="64.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="minnesota" alignment="CENTER" layoutX="749.0" layoutY="97.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="mississippi" alignment="CENTER" layoutX="749.0" layoutY="130.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="missouri" alignment="CENTER" layoutX="749.0" layoutY="163.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="montana" alignment="CENTER" layoutX="749.0" layoutY="196.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="nebraska" alignment="CENTER" layoutX="749.0" layoutY="229.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="nevada" alignment="CENTER" layoutX="749.0" layoutY="262.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="newHampshire" alignment="CENTER" layoutX="749.0" layoutY="295.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="newJersey" alignment="CENTER" layoutX="749.0" layoutY="328.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="newMexico" alignment="CENTER" layoutX="749.0" layoutY="361.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="newYork" alignment="CENTER" layoutX="749.0" layoutY="394.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="northCarolina" alignment="CENTER" layoutX="749.0" layoutY="427.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="northDakota" alignment="CENTER" layoutX="749.0" layoutY="460.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="ohio" alignment="CENTER" layoutX="749.0" layoutY="493.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="oklahoma" alignment="CENTER" layoutX="749.0" layoutY="526.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="oregon" alignment="CENTER" layoutX="749.0" layoutY="559.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="pennsylvania" alignment="CENTER" layoutX="749.0" layoutY="592.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="rhodeIsland" alignment="CENTER" layoutX="749.0" layoutY="625.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="southCarolina" alignment="CENTER" layoutX="749.0" layoutY="658.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="southDakota" alignment="CENTER" layoutX="876.0" layoutY="31.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tennessee" alignment="CENTER" layoutX="876.0" layoutY="64.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="texas" alignment="CENTER" layoutX="876.0" layoutY="97.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="utah" alignment="CENTER" layoutX="876.0" layoutY="130.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="vermont" alignment="CENTER" layoutX="876.0" layoutY="163.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="virginia" alignment="CENTER" layoutX="876.0" layoutY="196.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="washington" alignment="CENTER" layoutX="876.0" layoutY="229.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="westVirginia" alignment="CENTER" layoutX="876.0" layoutY="262.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="wisconsin" alignment="CENTER" layoutX="876.0" layoutY="295.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="wyoming" alignment="CENTER" layoutX="876.0" layoutY="328.0" prefHeight="11.0" prefWidth="26.0" scaleX="0.8" scaleY="0.8" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </TextField>
+      <Button layoutX="1038.0" layoutY="614.0" mnemonicParsing="false" onAction="#resetDefaults" stylesheets="@styles.css" text="Reset Defaults">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></Button>
+      <Label fx:id="errorLabel" alignment="CENTER" layoutX="925.0" layoutY="428.0" prefHeight="18.0" prefWidth="269.0" textFill="RED" />
+      <Hyperlink layoutX="650.0" layoutY="31.0" onAction="#onLinkClick" text="Alabama">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="650.0" layoutY="64.0" onAction="#onLinkClick" text="Alaska">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="650.0" layoutY="97.0" onAction="#onLinkClick" text="Arizona">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="650.0" layoutY="130.0" onAction="#onLinkClick" text="Arkansas">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="650.0" layoutY="161.0" onAction="#onLinkClick" text="California">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="650.0" layoutY="194.0" onAction="#onLinkClick" text="Colorado">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="650.0" layoutY="229.0" onAction="#onLinkClick" text="Connecticut">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="650.0" layoutY="260.0" onAction="#onLinkClick" text="Delaware">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="650.0" layoutY="293.0" onAction="#onLinkClick" text="Florida">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="650.0" layoutY="326.0" onAction="#onLinkClick" text="Georgia">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="650.0" layoutY="359.0" onAction="#onLinkClick" text="Hawaii">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="650.0" layoutY="392.0" onAction="#onLinkClick" text="Idaho">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="650.0" layoutY="425.0" onAction="#onLinkClick" text="Illinois">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="650.0" layoutY="458.0" onAction="#onLinkClick" text="Indiana">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="650.0" layoutY="491.0" onAction="#onLinkClick" text="Iowa">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="650.0" layoutY="524.0" onAction="#onLinkClick" text="Kansas">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="650.0" layoutY="557.0" onAction="#onLinkClick" text="Kentucky">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="650.0" layoutY="590.0" onAction="#onLinkClick" text="Louisiana">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="650.0" layoutY="623.0" onAction="#onLinkClick" text="Maine">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="650.0" layoutY="656.0" onAction="#onLinkClick" text="Maryland">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="778.0" layoutY="31.0" onAction="#onLinkClick" text="Massachusetts">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="778.0" layoutY="64.0" onAction="#onLinkClick" text="Michigan">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="778.0" layoutY="97.0" onAction="#onLinkClick" text="Minnesota">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="778.0" layoutY="130.0" onAction="#onLinkClick" text="Mississippi">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="778.0" layoutY="161.0" onAction="#onLinkClick" text="Missouri">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="778.0" layoutY="194.0" onAction="#onLinkClick" text="Montana">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="778.0" layoutY="229.0" onAction="#onLinkClick" text="Nebraska">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="778.0" layoutY="260.0" onAction="#onLinkClick" text="Nevada">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="778.0" layoutY="293.0" onAction="#onLinkClick" text="New Hampshire">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="778.0" layoutY="326.0" onAction="#onLinkClick" text="New Jersey">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="778.0" layoutY="359.0" onAction="#onLinkClick" text="New Mexico">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="778.0" layoutY="392.0" onAction="#onLinkClick" text="New York">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="778.0" layoutY="425.0" onAction="#onLinkClick" text="North Carolina">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="778.0" layoutY="458.0" onAction="#onLinkClick" text="North Dakota">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="778.0" layoutY="491.0" onAction="#onLinkClick" text="Ohio">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="778.0" layoutY="524.0" onAction="#onLinkClick" text="Oklahoma">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="778.0" layoutY="557.0" onAction="#onLinkClick" text="Oregon">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="778.0" layoutY="590.0" onAction="#onLinkClick" text="Pennsylvania">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="778.0" layoutY="623.0" onAction="#onLinkClick" text="Rhode Island">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="778.0" layoutY="656.0" onAction="#onLinkClick" text="South Carolina">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="907.0" layoutY="31.0" onAction="#onLinkClick" text="South Dakota">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="907.0" layoutY="64.0" onAction="#onLinkClick" text="Tennessee">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="907.0" layoutY="97.0" onAction="#onLinkClick" text="Texas">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="907.0" layoutY="130.0" onAction="#onLinkClick" text="Utah">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="907.0" layoutY="161.0" onAction="#onLinkClick" text="Vermont">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="907.0" layoutY="194.0" onAction="#onLinkClick" text="Virginia">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="907.0" layoutY="229.0" onAction="#onLinkClick" text="Washington">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="907.0" layoutY="260.0" onAction="#onLinkClick" text="West Virginia">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="907.0" layoutY="293.0" onAction="#onLinkClick" text="Wisconsin">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="907.0" layoutY="326.0" onAction="#onLinkClick" text="Wyoming">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+   </children>
+</AnchorPane>

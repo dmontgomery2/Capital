@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" style="-fx-background-color: #c3fbce;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.capital.controllers.EditStatePoolController">
+   <children>
+      <CheckBox fx:id="alabama" layoutX="627.0" layoutY="28.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="alaska" layoutX="627.0" layoutY="61.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="arizona" layoutX="627.0" layoutY="94.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="arkansas" layoutX="627.0" layoutY="127.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="california" layoutX="627.0" layoutY="160.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="colorado" layoutX="627.0" layoutY="193.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="connecticut" layoutX="627.0" layoutY="231.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="delaware" layoutX="627.0" layoutY="259.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="florida" layoutX="627.0" layoutY="292.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="georgiaState" layoutX="627.0" layoutY="325.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="hawaii" layoutX="627.0" layoutY="358.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="idaho" layoutX="627.0" layoutY="391.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="illinois" layoutX="627.0" layoutY="424.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="indiana" layoutX="627.0" layoutY="457.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="iowa" layoutX="627.0" layoutY="490.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="kansas" layoutX="627.0" layoutY="523.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="kentucky" layoutX="627.0" layoutY="556.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="louisiana" layoutX="627.0" layoutY="589.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="maine" layoutX="627.0" layoutY="622.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="maryland" layoutX="627.0" layoutY="655.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="massachusetts" layoutX="754.0" layoutY="28.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="michigan" layoutX="754.0" layoutY="61.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="minnesota" layoutX="754.0" layoutY="94.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="mississippi" layoutX="754.0" layoutY="127.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="missouri" layoutX="754.0" layoutY="160.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="montana" layoutX="754.0" layoutY="193.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="nebraska" layoutX="754.0" layoutY="231.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="nevada" layoutX="754.0" layoutY="259.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="newHampshire" layoutX="754.0" layoutY="292.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="newJersey" layoutX="754.0" layoutY="325.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="newMexico" layoutX="754.0" layoutY="358.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="newYork" layoutX="754.0" layoutY="391.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="northCarolina" layoutX="754.0" layoutY="424.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="northDakota" layoutX="754.0" layoutY="457.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="ohio" layoutX="754.0" layoutY="490.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="oklahoma" layoutX="754.0" layoutY="523.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="oregon" layoutX="754.0" layoutY="556.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="pennsylvania" layoutX="754.0" layoutY="589.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="rhodeIsland" layoutX="754.0" layoutY="622.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="southCarolina" layoutX="754.0" layoutY="655.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="southDakota" layoutX="881.0" layoutY="28.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="tennessee" layoutX="881.0" layoutY="61.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="texas" layoutX="881.0" layoutY="94.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="utah" layoutX="881.0" layoutY="127.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="vermont" layoutX="881.0" layoutY="160.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="virginia" layoutX="881.0" layoutY="193.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="washington" layoutX="881.0" layoutY="231.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="westVirginia" layoutX="881.0" layoutY="259.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="wisconsin" layoutX="881.0" layoutY="287.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="wyoming" layoutX="881.0" layoutY="315.0" mnemonicParsing="false" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <Button fx:id="submit" layoutX="1009.0" layoutY="585.0" mnemonicParsing="false" onAction="#onSubmit" stylesheets="@styles.css" text="Submit">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></Button>
+      <Button fx:id="cancel" layoutX="1085.0" layoutY="585.0" mnemonicParsing="false" onAction="#onCancel" stylesheets="@styles.css" text="Cancel">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></Button>
+      <ImageView fitHeight="422.0" fitWidth="307.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@logo.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="977.0" layoutY="495.0" mnemonicParsing="false" onAction="#selectAll" stylesheets="@styles.css" text="Select All">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></Button>
+      <Button layoutX="1097.0" layoutY="495.0" mnemonicParsing="false" onAction="#deselectAll" stylesheets="@styles.css" text="Deselect All">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></Button>
+      <Hyperlink layoutX="650.0" layoutY="27.0" onAction="#onLinkClick" text="Alabama">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="650.0" layoutY="60.0" onAction="#onLinkClick" text="Alaska">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="650.0" layoutY="93.0" onAction="#onLinkClick" text="Arizona">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="650.0" layoutY="126.0" onAction="#onLinkClick" text="Arkansas">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="650.0" layoutY="159.0" onAction="#onLinkClick" text="California">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="650.0" layoutY="192.0" onAction="#onLinkClick" text="Colorado">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="650.0" layoutY="229.0" onAction="#onLinkClick" text="Connecticut">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="650.0" layoutY="258.0" onAction="#onLinkClick" text="Delaware">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="650.0" layoutY="291.0" onAction="#onLinkClick" text="Florida">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="650.0" layoutY="324.0" onAction="#onLinkClick" text="Georgia">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="650.0" layoutY="357.0" onAction="#onLinkClick" text="Hawaii">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="650.0" layoutY="390.0" onAction="#onLinkClick" text="Idaho">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="650.0" layoutY="421.0" onAction="#onLinkClick" text="Illinois">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="650.0" layoutY="456.0" onAction="#onLinkClick" text="Indiana">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="650.0" layoutY="489.0" onAction="#onLinkClick" text="Iowa">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="650.0" layoutY="522.0" onAction="#onLinkClick" text="Kansas">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="650.0" layoutY="555.0" onAction="#onLinkClick" text="Kentucky">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="650.0" layoutY="588.0" onAction="#onLinkClick" text="Louisiana">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="650.0" layoutY="621.0" onAction="#onLinkClick" text="Maine">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="650.0" layoutY="654.0" onAction="#onLinkClick" text="Maryland">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="777.0" layoutY="27.0" onAction="#onLinkClick" text="Massachusetts">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="777.0" layoutY="60.0" onAction="#onLinkClick" text="Michigan">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="777.0" layoutY="93.0" onAction="#onLinkClick" text="Minnesota">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="777.0" layoutY="126.0" onAction="#onLinkClick" text="Mississippi">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="777.0" layoutY="159.0" onAction="#onLinkClick" text="Missouri">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="777.0" layoutY="192.0" onAction="#onLinkClick" text="Montana">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="777.0" layoutY="230.0" onAction="#onLinkClick" text="Nebraska">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="777.0" layoutY="258.0" onAction="#onLinkClick" text="Nevada">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="777.0" layoutY="291.0" onAction="#onLinkClick" text="New Hampshire">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="777.0" layoutY="324.0" onAction="#onLinkClick" text="New Jersey">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="777.0" layoutY="357.0" onAction="#onLinkClick" text="New Mexico">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="777.0" layoutY="390.0" onAction="#onLinkClick" text="New York">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="777.0" layoutY="423.0" onAction="#onLinkClick" text="North Carolina">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="777.0" layoutY="456.0" onAction="#onLinkClick" text="North Dakota">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="777.0" layoutY="489.0" onAction="#onLinkClick" text="Ohio">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="777.0" layoutY="522.0" onAction="#onLinkClick" text="Oklahoma">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="777.0" layoutY="555.0" onAction="#onLinkClick" text="Oregon">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="777.0" layoutY="588.0" onAction="#onLinkClick" text="Pennsylvania">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="777.0" layoutY="621.0" onAction="#onLinkClick" text="Rhode Island">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="777.0" layoutY="654.0" onAction="#onLinkClick" text="South Carolina">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="905.0" layoutY="27.0" onAction="#onLinkClick" text="South Dakota">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="905.0" layoutY="60.0" onAction="#onLinkClick" text="Tennessee">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="905.0" layoutY="93.0" onAction="#onLinkClick" text="Texas">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="905.0" layoutY="126.0" onAction="#onLinkClick" text="Utah">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="905.0" layoutY="159.0" onAction="#onLinkClick" text="Vermont">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="905.0" layoutY="192.0" onAction="#onLinkClick" text="Virginia">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="905.0" layoutY="230.0" onAction="#onLinkClick" text="Washington">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="905.0" layoutY="258.0" onAction="#onLinkClick" text="West Virginia">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="905.0" layoutY="286.0" onAction="#onLinkClick" text="Wisconsin">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="905.0" layoutY="314.0" onAction="#onLinkClick" text="Wyoming">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Label fx:id="errorLabel" layoutX="963.0" layoutY="633.0" textFill="RED">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

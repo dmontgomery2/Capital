@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" style="-fx-background-color: #c3fbce;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.capital.controllers.ProfileStatsController">
+   <children>
+      <ImageView fitHeight="422.0" fitWidth="307.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@logo.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="720.0" layoutY="617.0" mnemonicParsing="false" onAction="#onBackButtonClick" prefHeight="55.0" prefWidth="118.0" stylesheets="@styles.css" text="Back">
+         <font>
+            <Font name="Eras Demi ITC" size="30.0" />
+         </font></Button>
+      <Label fx:id="timeSpent" layoutX="428.0" layoutY="26.0" text="Time spent: [TIME_SPENT]">
+         <font>
+            <Font name="Eras Demi ITC" size="18.0" />
+         </font>
+      </Label>
+      <PieChart fx:id="stateCountries" animated="false" layoutX="728.0" layoutY="-8.0" prefHeight="111.0" prefWidth="87.0" stylesheets="@styles.css" />
+      <LineChart fx:id="overallScore" animated="false" createSymbols="false" layoutX="749.0" layoutY="139.0" legendVisible="false" prefHeight="459.0" prefWidth="450.0" stylesheets="@styles.css" title="Overall Score">
+        <xAxis>
+          <NumberAxis fx:id="overallScoreX" animated="false" label="Number Of Quizzes Taken" lowerBound="1.0" side="BOTTOM">
+               <tickLabelFont>
+                  <Font name="Eras Demi ITC" size="8.0" />
+               </tickLabelFont></NumberAxis>
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="overallScoreY" animated="false" label="Overall Score" side="LEFT" upperBound="99.0" />
+        </yAxis>
+      </LineChart>
+      <BarChart fx:id="fifteenWorst" animated="false" layoutX="283.0" layoutY="132.0" legendVisible="false" prefHeight="474.0" prefWidth="470.0" stylesheets="@styles.css" title="Fifteen Worst States/Countries">
+        <xAxis>
+          <CategoryAxis animated="false" label="State/Country" side="BOTTOM" fx:id="x" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="y" animated="false" label="Percentage Correct" side="LEFT" upperBound="99.0">
+               <tickLabelFont>
+                  <Font name="Eras Demi ITC" size="8.0" />
+               </tickLabelFont></NumberAxis>
+        </yAxis>
+      </BarChart>
+      <Label fx:id="avgQuizLength" layoutX="428.0" layoutY="56.0" text="Average quiz length: [AVG_QUIZ_LENGTH]">
+         <font>
+            <Font name="Eras Demi ITC" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="avgPoolSize" layoutX="428.0" layoutY="88.0" text="Average pool size: [AVG_POOL_SIZE]">
+         <font>
+            <Font name="Eras Demi ITC" size="18.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="showStatsFor" layoutX="118.0" layoutY="44.0" prefWidth="150.0" stylesheets="@styles.css" />
+      <Label layoutX="24.0" layoutY="47.0" text="Show stats for">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

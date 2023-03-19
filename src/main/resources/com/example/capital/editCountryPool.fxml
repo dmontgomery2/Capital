@@ -1,0 +1,1805 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" style="-fx-background-color: #c3fbce;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.capital.controllers.EditCountryPoolController">
+   <children>
+      <CheckBox fx:id="afghanistan" layoutX="326.0" layoutY="15.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="albania" layoutX="326.0" layoutY="34.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="algeria" layoutX="326.0" layoutY="52.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="andorra" layoutX="326.0" layoutY="70.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="angola" layoutX="326.0" layoutY="88.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="antiguaAndBarbuda" layoutX="326.0" layoutY="106.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="argentina" layoutX="326.0" layoutY="123.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="armenia" layoutX="326.0" layoutY="142.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="australia" layoutX="326.0" layoutY="160.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="austria" layoutX="326.0" layoutY="178.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="azerbaijan" layoutX="326.0" layoutY="195.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="bahrain" layoutX="326.0" layoutY="232.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="theBahamas" layoutX="326.0" layoutY="214.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="bangladesh" layoutX="326.0" layoutY="250.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="barbados" layoutX="326.0" layoutY="268.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="belarus" layoutX="326.0" layoutY="286.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="belgium" layoutX="326.0" layoutY="304.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="belize" layoutX="326.0" layoutY="322.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="benin" layoutX="326.0" layoutY="341.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="bhutan" layoutX="326.0" layoutY="359.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="bolivia" layoutX="326.0" layoutY="377.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="bosniaAndHerzegovina" layoutX="326.0" layoutY="396.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="botswana" layoutX="326.0" layoutY="414.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="brazil" layoutX="326.0" layoutY="432.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="brunei" layoutX="326.0" layoutY="450.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="bulgaria" layoutX="326.0" layoutY="468.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="burkinaFaso" layoutX="326.0" layoutY="486.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="burundi" layoutX="326.0" layoutY="504.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="caboVerde" layoutX="326.0" layoutY="522.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="cambodia" layoutX="326.0" layoutY="540.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="cameroon" layoutX="326.0" layoutY="558.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="canada" layoutX="326.0" layoutY="576.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="centralAfricanRepublic" layoutX="326.0" layoutY="594.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="chad" layoutX="326.0" layoutY="612.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="chile" layoutX="326.0" layoutY="630.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="china" layoutX="326.0" layoutY="648.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="colombia" layoutX="326.0" layoutY="666.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="comoros" layoutX="464.0" layoutY="15.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="democraticRepublicOfTheCongo" layoutX="464.0" layoutY="34.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="dominica" layoutX="464.0" layoutY="52.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="republicOfTheCongo" layoutX="464.0" layoutY="70.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="costaRica" layoutX="464.0" layoutY="88.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="coteDIvoire" layoutX="464.0" layoutY="106.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="croatia" layoutX="464.0" layoutY="123.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="cuba" layoutX="464.0" layoutY="142.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="cyprus" layoutX="464.0" layoutY="160.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="czechRepublic" layoutX="464.0" layoutY="178.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="denmark" layoutX="464.0" layoutY="196.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="dominicanRepublic" layoutX="464.0" layoutY="232.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="djibouti" layoutX="464.0" layoutY="214.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="ecuador" layoutX="464.0" layoutY="250.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="egypt" layoutX="464.0" layoutY="269.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="elSalvador" layoutX="464.0" layoutY="286.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="equatorialGuinea" layoutX="464.0" layoutY="304.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="eritrea" layoutX="464.0" layoutY="322.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="estonia" layoutX="464.0" layoutY="341.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="eswatini" layoutX="464.0" layoutY="359.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="ethiopia" layoutX="464.0" layoutY="377.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="fiji" layoutX="464.0" layoutY="396.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="finland" layoutX="464.0" layoutY="414.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="france" layoutX="464.0" layoutY="433.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="gabon" layoutX="464.0" layoutY="450.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="theGambia" layoutX="464.0" layoutY="468.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="georgia" layoutX="464.0" layoutY="486.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="germany" layoutX="464.0" layoutY="504.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="ghana" layoutX="464.0" layoutY="522.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="greece" layoutX="464.0" layoutY="540.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="grenada" layoutX="464.0" layoutY="558.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="guatemala" layoutX="464.0" layoutY="575.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="guinea" layoutX="464.0" layoutY="594.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="guineaBissau" layoutX="464.0" layoutY="611.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="guyana" layoutX="464.0" layoutY="630.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="haiti" layoutX="464.0" layoutY="648.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="honduras" layoutX="464.0" layoutY="665.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="hungary" layoutX="645.0" layoutY="16.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="iceland" layoutX="645.0" layoutY="33.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="india" layoutX="645.0" layoutY="51.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="indonesia" layoutX="645.0" layoutY="69.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="iran" layoutX="645.0" layoutY="87.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="iraq" layoutX="645.0" layoutY="106.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="ireland" layoutX="645.0" layoutY="123.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="israel" layoutX="645.0" layoutY="142.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="italy" layoutX="645.0" layoutY="160.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="jamaica" layoutX="645.0" layoutY="178.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="japan" layoutX="645.0" layoutY="195.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="kazakhstan" layoutX="645.0" layoutY="232.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="jordan" layoutX="645.0" layoutY="214.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="kenya" layoutX="645.0" layoutY="250.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="kiribati" layoutX="645.0" layoutY="268.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="kosovo" layoutX="645.0" layoutY="285.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="kuwait" layoutX="645.0" layoutY="304.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="kyrgyzstan" layoutX="645.0" layoutY="322.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="laos" layoutX="645.0" layoutY="340.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="latvia" layoutX="645.0" layoutY="359.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="lebanon" layoutX="645.0" layoutY="377.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="lesotho" layoutX="645.0" layoutY="396.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="liberia" layoutX="645.0" layoutY="414.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="libya" layoutX="645.0" layoutY="432.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="liechtenstein" layoutX="645.0" layoutY="450.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="lithuania" layoutX="645.0" layoutY="468.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="luxembourg" layoutX="645.0" layoutY="486.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="madagascar" layoutX="645.0" layoutY="504.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="malawi" layoutX="645.0" layoutY="522.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="malaysia" layoutX="645.0" layoutY="540.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="maldives" layoutX="645.0" layoutY="558.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="mali" layoutX="645.0" layoutY="575.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="malta" layoutX="645.0" layoutY="594.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="marshallIslands" layoutX="645.0" layoutY="611.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="mauritania" layoutX="645.0" layoutY="630.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="mauritius" layoutX="645.0" layoutY="647.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="mexico" layoutX="645.0" layoutY="665.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="federatedStatesOfMicronesia" layoutX="752.0" layoutY="16.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="moldova" layoutX="752.0" layoutY="34.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="monaco" layoutX="752.0" layoutY="51.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="mongolia" layoutX="752.0" layoutY="70.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="montenegro" layoutX="752.0" layoutY="89.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="morocco" layoutX="752.0" layoutY="106.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="mozambique" layoutX="752.0" layoutY="124.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="myanmar" layoutX="752.0" layoutY="142.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="namibia" layoutX="752.0" layoutY="160.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="nauru" layoutX="752.0" layoutY="178.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="nepal" layoutX="752.0" layoutY="196.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="newZealand" layoutX="752.0" layoutY="232.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="netherlands" layoutX="752.0" layoutY="214.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="nicaragua" layoutX="752.0" layoutY="250.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="niger" layoutX="752.0" layoutY="268.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="nigeria" layoutX="752.0" layoutY="285.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="northKorea" layoutX="752.0" layoutY="305.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="northMacedonia" layoutX="752.0" layoutY="324.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="norway" layoutX="752.0" layoutY="342.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="oman" layoutX="752.0" layoutY="359.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="pakistan" layoutX="752.0" layoutY="377.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="palau" layoutX="752.0" layoutY="396.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="palestine" layoutX="752.0" layoutY="414.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="panama" layoutX="752.0" layoutY="432.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="papuaNewGuinea" layoutX="751.0" layoutY="450.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="paraguay" layoutX="751.0" layoutY="468.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="peru" layoutX="751.0" layoutY="486.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="philippines" layoutX="751.0" layoutY="504.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="poland" layoutX="751.0" layoutY="522.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="portugal" layoutX="751.0" layoutY="540.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="qatar" layoutX="751.0" layoutY="558.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="romania" layoutX="751.0" layoutY="577.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="russia" layoutX="751.0" layoutY="596.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="rwanda" layoutX="751.0" layoutY="613.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="saintKittsAndNevis" layoutX="751.0" layoutY="630.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="saintLucia" layoutX="751.0" layoutY="647.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="saintVincentAndTheGrenadines" layoutX="752.0" layoutY="667.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="samoa" layoutX="917.0" layoutY="16.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="sanMarino" layoutX="917.0" layoutY="34.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="saoTomeAndPrincipe" layoutX="917.0" layoutY="52.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="saudiArabia" layoutX="917.0" layoutY="70.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="senegal" layoutX="917.0" layoutY="88.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="serbia" layoutX="917.0" layoutY="106.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="seychelles" layoutX="917.0" layoutY="125.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="sierraLeone" layoutX="917.0" layoutY="142.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="singapore" layoutX="917.0" layoutY="160.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="slovakia" layoutX="917.0" layoutY="178.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="slovenia" layoutX="917.0" layoutY="196.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="somalia" layoutX="917.0" layoutY="232.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="solomonIslands" layoutX="917.0" layoutY="214.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="southAfrica" layoutX="917.0" layoutY="250.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="southKorea" layoutX="917.0" layoutY="268.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="southSudan" layoutX="917.0" layoutY="286.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="spain" layoutX="917.0" layoutY="304.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="sriLanka" layoutX="917.0" layoutY="324.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="sudan" layoutX="917.0" layoutY="341.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="suriname" layoutX="917.0" layoutY="357.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="sweden" layoutX="917.0" layoutY="377.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="switzerland" layoutX="917.0" layoutY="396.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="syria" layoutX="917.0" layoutY="414.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="tajikistan" layoutX="917.0" layoutY="432.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="tanzania" layoutX="917.0" layoutY="452.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="thailand" layoutX="917.0" layoutY="468.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="timorLeste" layoutX="917.0" layoutY="487.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="togo" layoutX="917.0" layoutY="504.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="tonga" layoutX="917.0" layoutY="522.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="trinidadAndTobago" layoutX="917.0" layoutY="541.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="tunisia" layoutX="917.0" layoutY="558.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="turkiye" layoutX="917.0" layoutY="576.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="turkmenistan" layoutX="917.0" layoutY="593.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="tuvalu" layoutX="917.0" layoutY="612.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="uganda" layoutX="917.0" layoutY="630.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="ukraine" layoutX="917.0" layoutY="648.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="unitedArabEmirates" layoutX="917.0" layoutY="666.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="unitedKingdom" layoutX="1025.0" layoutY="15.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="unitedStatesOfAmerica" layoutX="1025.0" layoutY="34.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="uruguay" layoutX="1025.0" layoutY="52.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="uzbekistan" layoutX="1025.0" layoutY="69.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="vanuatu" layoutX="1025.0" layoutY="89.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <ImageView fitHeight="422.0" fitWidth="307.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@logo.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="1115.0" layoutY="270.0" mnemonicParsing="false" onAction="#onSubmit" stylesheets="@styles.css" text="Submit">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></Button>
+      <Button layoutX="1118.0" layoutY="311.0" mnemonicParsing="false" onAction="#onCancel" stylesheets="@styles.css" text="Cancel">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></Button>
+      <Button layoutX="1103.0" layoutY="392.0" mnemonicParsing="false" onAction="#deselectAll" stylesheets="@styles.css" text="Deselect All">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></Button>
+      <Button layoutX="1110.0" layoutY="349.0" mnemonicParsing="false" onAction="#selectAll" stylesheets="@styles.css" text="Select All">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></Button>
+      <CheckBox fx:id="vaticanCity" layoutX="1025.0" layoutY="106.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="venezuela" layoutX="1025.0" layoutY="123.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="vietnam" layoutX="1025.0" layoutY="142.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="yemen" layoutX="1025.0" layoutY="160.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="zambia" layoutX="1025.0" layoutY="178.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="zimbabwe" layoutX="1025.0" layoutY="195.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="0.0" scaleX="0.7" scaleY="0.7" selected="true" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></CheckBox>
+      <Hyperlink layoutX="342.0" layoutY="16.0" onAction="#onLinkClick" text="Afghanistan">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="342.0" layoutY="35.0" onAction="#onLinkClick" text="Albania">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="342.0" layoutY="54.0" onAction="#onLinkClick" text="Algeria">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="342.0" layoutY="73.0" onAction="#onLinkClick" text="Andorra">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="342.0" layoutY="92.0" onAction="#onLinkClick" text="Angola">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="342.0" layoutY="109.0" onAction="#onLinkClick" text="Antigua &amp; Barbuda">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="342.0" layoutY="126.0" onAction="#onLinkClick" text="Argentina">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="342.0" layoutY="145.0" onAction="#onLinkClick" text="Armenia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="342.0" layoutY="161.0" onAction="#onLinkClick" text="Australia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="342.0" layoutY="180.0" onAction="#onLinkClick" text="Austria">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="342.0" layoutY="197.0" onAction="#onLinkClick" text="Azerbaijan">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="340.0" layoutY="216.0" onAction="#onLinkClick" text="The Bahamas">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="342.0" layoutY="235.0" onAction="#onLinkClick" text="Bahrain">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="342.0" layoutY="251.0" onAction="#onLinkClick" text="Bangladesh">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="342.0" layoutY="270.0" onAction="#onLinkClick" text="Barbados">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="342.0" layoutY="288.0" onAction="#onLinkClick" text="Belarus">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="342.0" layoutY="306.0" onAction="#onLinkClick" text="Belgium">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="342.0" layoutY="325.0" onAction="#onLinkClick" text="Belize">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="342.0" layoutY="343.0" onAction="#onLinkClick" text="Benin">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="342.0" layoutY="360.0" onAction="#onLinkClick" text="Bhutan">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="342.0" layoutY="379.0" onAction="#onLinkClick" text="Bolivia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="342.0" layoutY="397.0" onAction="#onLinkClick" text="Bosnia &amp; Herzegovina">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="342.0" layoutY="417.0" onAction="#onLinkClick" text="Botswana">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="342.0" layoutY="436.0" onAction="#onLinkClick" text="Brazil">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="342.0" layoutY="452.0" onAction="#onLinkClick" text="Brunei">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="342.0" layoutY="471.0" onAction="#onLinkClick" text="Bulgaria">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="342.0" layoutY="488.0" onAction="#onLinkClick" text="Burkina Faso">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="342.0" layoutY="505.0" onAction="#onLinkClick" text="Burundi">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="342.0" layoutY="524.0" onAction="#onLinkClick" text="Cabo Verde">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="342.0" layoutY="542.0" onAction="#onLinkClick" text="Cambodia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="342.0" layoutY="559.0" onAction="#onLinkClick" text="Cameroon">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="342.0" layoutY="577.0" onAction="#onLinkClick" text="Canada">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="343.0" layoutY="594.0" onAction="#onLinkClick" text="Central African Republic">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="343.0" layoutY="613.0" onAction="#onLinkClick" text="Chad">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="343.0" layoutY="631.0" onAction="#onLinkClick" text="Chile">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="343.0" layoutY="648.0" onAction="#onLinkClick" text="China">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="343.0" layoutY="666.0" onAction="#onLinkClick" text="Colombia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="482.0" layoutY="15.0" onAction="#onLinkClick" text="Comoros">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="482.0" layoutY="35.0" onAction="#onLinkClick" text="Democratic Republic Of The Congo">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="482.0" layoutY="53.0" onAction="#onLinkClick" text="Dominica">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="482.0" layoutY="72.0" onAction="#onLinkClick" text="Republic Of The Congo">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="482.0" layoutY="89.0" onAction="#onLinkClick" text="Costa Rica">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="482.0" layoutY="108.0" onAction="#onLinkClick" text="Cote D'Ivoire">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="482.0" layoutY="124.0" onAction="#onLinkClick" text="Croatia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="482.0" layoutY="143.0" onAction="#onLinkClick" text="Cuba">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="482.0" layoutY="161.0" onAction="#onLinkClick" text="Cyprus">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="482.0" layoutY="180.0" onAction="#onLinkClick" text="Czech Republic">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="482.0" layoutY="197.0" onAction="#onLinkClick" text="Denmark">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="480.0" layoutY="215.0" onAction="#onLinkClick" text="Djibouti">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="482.0" layoutY="234.0" onAction="#onLinkClick" text="Dominican Republic">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="482.0" layoutY="252.0" onAction="#onLinkClick" text="Ecuador">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="482.0" layoutY="271.0" onAction="#onLinkClick" text="Egypt">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="482.0" layoutY="287.0" onAction="#onLinkClick" text="El Salvador">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="482.0" layoutY="305.0" onAction="#onLinkClick" text="Equatorial Guinea">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="482.0" layoutY="324.0" onAction="#onLinkClick" text="Eritrea">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="482.0" layoutY="343.0" onAction="#onLinkClick" text="Estonia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="482.0" layoutY="360.0" onAction="#onLinkClick" text="Eswatini">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="482.0" layoutY="378.0" onAction="#onLinkClick" text="Ethiopia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="482.0" layoutY="397.0" onAction="#onLinkClick" text="Fiji">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="482.0" layoutY="415.0" onAction="#onLinkClick" text="Finland">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="482.0" layoutY="435.0" onAction="#onLinkClick" text="France">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="482.0" layoutY="451.0" onAction="#onLinkClick" text="Gabon">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="482.0" layoutY="470.0" onAction="#onLinkClick" text="The Gambia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="482.0" layoutY="488.0" onAction="#onLinkClick" text="Georgia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="482.0" layoutY="506.0" onAction="#onLinkClick" text="Germany">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="482.0" layoutY="524.0" onAction="#onLinkClick" text="Ghana">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="482.0" layoutY="542.0" onAction="#onLinkClick" text="Greece">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="482.0" layoutY="560.0" onAction="#onLinkClick" text="Grenada">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="482.0" layoutY="577.0" onAction="#onLinkClick" text="Guatemala">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="483.0" layoutY="596.0" onAction="#onLinkClick" text="Guinea">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="483.0" layoutY="613.0" onAction="#onLinkClick" text="Guinea-Bissau">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="483.0" layoutY="632.0" onAction="#onLinkClick" text="Guyana">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="483.0" layoutY="650.0" onAction="#onLinkClick" text="Haiti">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="483.0" layoutY="668.0" onAction="#onLinkClick" text="Honduras">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="663.0" layoutY="17.0" onAction="#onLinkClick" text="Hungary">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="663.0" layoutY="35.0" onAction="#onLinkClick" text="Iceland">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="663.0" layoutY="52.0" onAction="#onLinkClick" text="India">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="663.0" layoutY="71.0" onAction="#onLinkClick" text="Indonesia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="663.0" layoutY="89.0" onAction="#onLinkClick" text="Iran">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="663.0" layoutY="108.0" onAction="#onLinkClick" text="Iraq">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="663.0" layoutY="125.0" onAction="#onLinkClick" text="Ireland">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="663.0" layoutY="143.0" onAction="#onLinkClick" text="Israel">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="663.0" layoutY="161.0" onAction="#onLinkClick" text="Italy">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="663.0" layoutY="179.0" onAction="#onLinkClick" text="Jamaica">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="663.0" layoutY="196.0" onAction="#onLinkClick" text="Japan">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="661.0" layoutY="216.0" onAction="#onLinkClick" text="Jordan">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="663.0" layoutY="235.0" onAction="#onLinkClick" text="Kazakhstan">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="663.0" layoutY="252.0" onAction="#onLinkClick" text="Kenya">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="663.0" layoutY="270.0" onAction="#onLinkClick" text="Kiribati">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="663.0" layoutY="288.0" onAction="#onLinkClick" text="Kosovo">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="663.0" layoutY="307.0" onAction="#onLinkClick" text="Kuwait">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="663.0" layoutY="325.0" onAction="#onLinkClick" text="Kyrgyzstan">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="663.0" layoutY="342.0" onAction="#onLinkClick" text="Laos">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="663.0" layoutY="360.0" onAction="#onLinkClick" text="Latvia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="663.0" layoutY="378.0" onAction="#onLinkClick" text="Lebanon">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="663.0" layoutY="397.0" onAction="#onLinkClick" text="Lesotho">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="663.0" layoutY="415.0" onAction="#onLinkClick" text="Liberia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="663.0" layoutY="434.0" onAction="#onLinkClick" text="Libya">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="663.0" layoutY="453.0" onAction="#onLinkClick" text="Liechtenstein">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="663.0" layoutY="472.0" onAction="#onLinkClick" text="Lithuania">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="663.0" layoutY="489.0" onAction="#onLinkClick" text="Luxembourg">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="663.0" layoutY="506.0" onAction="#onLinkClick" text="Madagascar">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="663.0" layoutY="525.0" onAction="#onLinkClick" text="Malawi">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="663.0" layoutY="543.0" onAction="#onLinkClick" text="Malaysia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="663.0" layoutY="560.0" onAction="#onLinkClick" text="Maldives">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="663.0" layoutY="578.0" onAction="#onLinkClick" text="Mali">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="664.0" layoutY="595.0" onAction="#onLinkClick" text="Malta">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="664.0" layoutY="614.0" onAction="#onLinkClick" text="Marshall Islands">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="664.0" layoutY="632.0" onAction="#onLinkClick" text="Mauritania">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="664.0" layoutY="649.0" onAction="#onLinkClick" text="Mauritius">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="664.0" layoutY="667.0" onAction="#onLinkClick" text="Mexico">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="770.0" layoutY="17.0" onAction="#onLinkClick" text="Federated States of Micronesia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="770.0" layoutY="36.0" onAction="#onLinkClick" text="Moldova">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="770.0" layoutY="53.0" onAction="#onLinkClick" text="Monaco">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="770.0" layoutY="72.0" onAction="#onLinkClick" text="Mongolia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="770.0" layoutY="91.0" onAction="#onLinkClick" text="Montenegro">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="770.0" layoutY="108.0" onAction="#onLinkClick" text="Morocco">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="770.0" layoutY="126.0" onAction="#onLinkClick" text="Mozambique">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="770.0" layoutY="144.0" onAction="#onLinkClick" text="Myanmar">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="770.0" layoutY="162.0" onAction="#onLinkClick" text="Namibia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="770.0" layoutY="180.0" onAction="#onLinkClick" text="Nauru">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="770.0" layoutY="197.0" onAction="#onLinkClick" text="Nepal">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="768.0" layoutY="216.0" onAction="#onLinkClick" text="Netherlands">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="770.0" layoutY="234.0" onAction="#onLinkClick" text="New Zealand">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="770.0" layoutY="252.0" onAction="#onLinkClick" text="Nicaragua">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="770.0" layoutY="269.0" onAction="#onLinkClick" text="Niger">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="770.0" layoutY="287.0" onAction="#onLinkClick" text="Nigeria">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="770.0" layoutY="307.0" onAction="#onLinkClick" text="North Korea">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="770.0" layoutY="326.0" onAction="#onLinkClick" text="North Macedonia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="770.0" layoutY="344.0" onAction="#onLinkClick" text="Norway">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="770.0" layoutY="361.0" onAction="#onLinkClick" text="Oman">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="770.0" layoutY="378.0" onAction="#onLinkClick" text="Pakistan">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="770.0" layoutY="398.0" onAction="#onLinkClick" text="Palau">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="770.0" layoutY="416.0" onAction="#onLinkClick" text="Palestine">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="770.0" layoutY="433.0" onAction="#onLinkClick" text="Panama">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="770.0" layoutY="452.0" onAction="#onLinkClick" text="Papua New Guinea">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="770.0" layoutY="469.0" onAction="#onLinkClick" text="Paraguay">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="770.0" layoutY="487.0" onAction="#onLinkClick" text="Peru">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="770.0" layoutY="505.0" onAction="#onLinkClick" text="Philippines">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="770.0" layoutY="523.0" onAction="#onLinkClick" text="Poland">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="770.0" layoutY="542.0" onAction="#onLinkClick" text="Portugal">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="770.0" layoutY="559.0" onAction="#onLinkClick" text="Qatar">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="770.0" layoutY="578.0" onAction="#onLinkClick" text="Romania">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="771.0" layoutY="598.0" onAction="#onLinkClick" text="Russia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="771.0" layoutY="614.0" onAction="#onLinkClick" text="Rwanda">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="771.0" layoutY="632.0" onAction="#onLinkClick" text="Saint Kitts &amp; Nevis">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="771.0" layoutY="649.0" onAction="#onLinkClick" text="Saint Lucia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="771.0" layoutY="667.0" onAction="#onLinkClick" text="Saint Vincent &amp; The Grenadines">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="935.0" layoutY="18.0" onAction="#onLinkClick" text="Samoa">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="935.0" layoutY="36.0" onAction="#onLinkClick" text="San Marino">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="935.0" layoutY="54.0" onAction="#onLinkClick" text="Sao Tome &amp; Principe">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="935.0" layoutY="72.0" onAction="#onLinkClick" text="Saudi Arabia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="935.0" layoutY="89.0" onAction="#onLinkClick" text="Senegal">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="935.0" layoutY="108.0" onAction="#onLinkClick" text="Serbia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="935.0" layoutY="127.0" onAction="#onLinkClick" text="Seychelles">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="935.0" layoutY="144.0" onAction="#onLinkClick" text="Sierra Leone">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="935.0" layoutY="161.0" onAction="#onLinkClick" text="Singapore">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="935.0" layoutY="180.0" onAction="#onLinkClick" text="Slovakia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="935.0" layoutY="197.0" onAction="#onLinkClick" text="Slovenia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="933.0" layoutY="215.0" onAction="#onLinkClick" text="Solomon Islands">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="935.0" layoutY="233.0" onAction="#onLinkClick" text="Somalia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="935.0" layoutY="252.0" onAction="#onLinkClick" text="South Africa">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="935.0" layoutY="269.0" onAction="#onLinkClick" text="South Korea">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="935.0" layoutY="287.0" onAction="#onLinkClick" text="South Sudan">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="935.0" layoutY="305.0" onAction="#onLinkClick" text="Spain">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="935.0" layoutY="325.0" onAction="#onLinkClick" text="Sri Lanka">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="935.0" layoutY="343.0" onAction="#onLinkClick" text="Sudan">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="935.0" layoutY="359.0" onAction="#onLinkClick" text="Suriname">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="935.0" layoutY="378.0" onAction="#onLinkClick" text="Sweden">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="935.0" layoutY="397.0" onAction="#onLinkClick" text="Switzerland">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="935.0" layoutY="415.0" onAction="#onLinkClick" text="Syria">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="935.0" layoutY="433.0" onAction="#onLinkClick" text="Tajikistan">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="935.0" layoutY="454.0" onAction="#onLinkClick" text="Tanzania">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="935.0" layoutY="469.0" onAction="#onLinkClick" text="Thailand">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="935.0" layoutY="488.0" onAction="#onLinkClick" text="Timor-Leste">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="935.0" layoutY="505.0" onAction="#onLinkClick" text="Togo">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="935.0" layoutY="523.0" onAction="#onLinkClick" text="Tonga">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="935.0" layoutY="542.0" onAction="#onLinkClick" text="Trinidad &amp; Tobago">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="935.0" layoutY="559.0" onAction="#onLinkClick" text="Tunisia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="935.0" layoutY="577.0" onAction="#onLinkClick" text="Turkiye">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="936.0" layoutY="595.0" onAction="#onLinkClick" text="Turkmenistan">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="936.0" layoutY="613.0" onAction="#onLinkClick" text="Tuvalu">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="936.0" layoutY="632.0" onAction="#onLinkClick" text="Uganda">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="936.0" layoutY="650.0" onAction="#onLinkClick" text="Ukraine">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="936.0" layoutY="668.0" onAction="#onLinkClick" text="United Arab Emirates">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="1041.0" layoutY="16.0" onAction="#onLinkClick" text="United Kingdom">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="1041.0" layoutY="35.0" onAction="#onLinkClick" text="United States of America">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="1041.0" layoutY="54.0" onAction="#onLinkClick" text="Uruguay">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="1041.0" layoutY="73.0" onAction="#onLinkClick" text="Uzbekistan">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="1041.0" layoutY="92.0" onAction="#onLinkClick" text="Vanuatu">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="1041.0" layoutY="109.0" onAction="#onLinkClick" text="Vatican City">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="1041.0" layoutY="126.0" onAction="#onLinkClick" text="Venezuela">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="1041.0" layoutY="145.0" onAction="#onLinkClick" text="Vietnam">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="1041.0" layoutY="161.0" onAction="#onLinkClick" text="Yemen">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="1041.0" layoutY="180.0" onAction="#onLinkClick" text="Zambia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="1041.0" layoutY="197.0" onAction="#onLinkClick" text="Zimbabwe">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Label fx:id="errorLabel" layoutX="1014.0" layoutY="427.0" prefHeight="24.0" prefWidth="178.0" textFill="RED">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

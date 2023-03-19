@@ -1,0 +1,1798 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" style="-fx-background-color: #c3fbce;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.capital.controllers.EditCountryDifficultiesController">
+   <children>
+      <ImageView fitHeight="422.0" fitWidth="307.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@logo.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="1087.0" layoutY="231.0" mnemonicParsing="false" onAction="#onSubmit" stylesheets="@styles.css" text="Submit">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></Button>
+      <Button layoutX="1087.0" layoutY="271.0" mnemonicParsing="false" onAction="#onCancel" stylesheets="@styles.css" text="Cancel">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></Button>
+      <TextField fx:id="afghanistan" alignment="CENTER" layoutX="300.0" layoutY="14.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="albania" alignment="CENTER" layoutX="300.0" layoutY="32.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="algeria" alignment="CENTER" layoutX="300.0" layoutY="50.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="andorra" alignment="CENTER" layoutX="300.0" layoutY="68.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="angola" alignment="CENTER" layoutX="300.0" layoutY="86.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="antiguaAndBarbuda" alignment="CENTER" layoutX="300.0" layoutY="104.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="argentina" alignment="CENTER" layoutX="300.0" layoutY="122.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="armenia" alignment="CENTER" layoutX="300.0" layoutY="140.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="australia" alignment="CENTER" layoutX="300.0" layoutY="158.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="austria" alignment="CENTER" layoutX="300.0" layoutY="176.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="azerbaijan" alignment="CENTER" layoutX="300.0" layoutY="194.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="theBahamas" alignment="CENTER" layoutX="300.0" layoutY="212.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="bahrain" alignment="CENTER" layoutX="300.0" layoutY="230.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="bangladesh" alignment="CENTER" layoutX="300.0" layoutY="248.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="barbados" alignment="CENTER" layoutX="300.0" layoutY="264.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css" translateY="2.0">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="belarus" alignment="CENTER" layoutX="300.0" layoutY="282.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css" translateY="2.0">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="belgium" alignment="CENTER" layoutX="300.0" layoutY="300.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css" translateY="2.0">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="belize" alignment="CENTER" layoutX="300.0" layoutY="318.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css" translateY="2.0">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="benin" alignment="CENTER" layoutX="300.0" layoutY="336.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css" translateY="2.0">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="bhutan" alignment="CENTER" layoutX="300.0" layoutY="354.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css" translateY="2.0">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="bolivia" alignment="CENTER" layoutX="300.0" layoutY="372.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css" translateY="2.0">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="bosniaAndHerzegovina" alignment="CENTER" layoutX="300.0" layoutY="390.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css" translateY="2.0">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="botswana" alignment="CENTER" layoutX="300.0" layoutY="408.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css" translateY="2.0">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="brazil" alignment="CENTER" layoutX="300.0" layoutY="426.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css" translateY="2.0">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="brunei" alignment="CENTER" layoutX="300.0" layoutY="444.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css" translateY="2.0">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="bulgaria" alignment="CENTER" layoutX="300.0" layoutY="462.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css" translateY="2.0">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="burkinaFaso" alignment="CENTER" layoutX="300.0" layoutY="480.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css" translateY="2.0">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="burundi" alignment="CENTER" layoutX="300.0" layoutY="498.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css" translateY="2.0">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="caboVerde" alignment="CENTER" layoutX="299.0" layoutY="521.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css" translateX="1.0" translateY="-5.0">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="cambodia" alignment="CENTER" layoutX="299.0" layoutY="539.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css" translateX="1.0" translateY="-5.0">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="cameroon" alignment="CENTER" layoutX="299.0" layoutY="557.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css" translateX="1.0" translateY="-5.0">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="canada" alignment="CENTER" layoutX="299.0" layoutY="575.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css" translateX="1.0" translateY="-5.0">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="centralAfricanRepublic" alignment="CENTER" layoutX="299.0" layoutY="593.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css" translateX="1.0" translateY="-5.0">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="chad" alignment="CENTER" layoutX="299.0" layoutY="611.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css" translateX="1.0" translateY="-5.0">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="chile" alignment="CENTER" layoutX="299.0" layoutY="629.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css" translateX="1.0" translateY="-5.0">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="china" alignment="CENTER" layoutX="299.0" layoutY="645.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css" translateX="1.0" translateY="-5.0">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="colombia" alignment="CENTER" layoutX="299.0" layoutY="663.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css" translateX="1.0" translateY="-5.0">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="comoros" alignment="CENTER" layoutX="452.0" layoutY="14.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="democraticRepublicOfTheCongo" alignment="CENTER" layoutX="452.0" layoutY="32.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="dominica" alignment="CENTER" layoutX="452.0" layoutY="50.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="republicOfTheCongo" alignment="CENTER" layoutX="452.0" layoutY="68.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="costaRica" alignment="CENTER" layoutX="452.0" layoutY="86.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="coteDIvoire" alignment="CENTER" layoutX="452.0" layoutY="104.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="croatia" alignment="CENTER" layoutX="452.0" layoutY="122.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="cuba" alignment="CENTER" layoutX="452.0" layoutY="140.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="cyprus" alignment="CENTER" layoutX="452.0" layoutY="158.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="czechRepublic" alignment="CENTER" layoutX="452.0" layoutY="176.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="denmark" alignment="CENTER" layoutX="452.0" layoutY="194.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="djibouti" alignment="CENTER" layoutX="452.0" layoutY="212.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="dominicanRepublic" alignment="CENTER" layoutX="452.0" layoutY="230.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="ecuador" alignment="CENTER" layoutX="452.0" layoutY="248.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="egypt" alignment="CENTER" layoutX="452.0" layoutY="264.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="elSalvador" alignment="CENTER" layoutX="452.0" layoutY="282.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="equatorialGuinea" alignment="CENTER" layoutX="452.0" layoutY="300.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="eritrea" alignment="CENTER" layoutX="452.0" layoutY="318.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="estonia" alignment="CENTER" layoutX="452.0" layoutY="336.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="eswatini" alignment="CENTER" layoutX="452.0" layoutY="354.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="ethiopia" alignment="CENTER" layoutX="452.0" layoutY="372.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="fiji" alignment="CENTER" layoutX="452.0" layoutY="390.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="finland" alignment="CENTER" layoutX="452.0" layoutY="408.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="france" alignment="CENTER" layoutX="452.0" layoutY="426.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="gabon" alignment="CENTER" layoutX="452.0" layoutY="444.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="theGambia" alignment="CENTER" layoutX="452.0" layoutY="462.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="georgia" alignment="CENTER" layoutX="452.0" layoutY="480.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="germany" alignment="CENTER" layoutX="452.0" layoutY="498.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="ghana" alignment="CENTER" layoutX="451.0" layoutY="521.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="greece" alignment="CENTER" layoutX="451.0" layoutY="539.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="grenada" alignment="CENTER" layoutX="451.0" layoutY="557.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="guatemala" alignment="CENTER" layoutX="451.0" layoutY="575.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="guinea" alignment="CENTER" layoutX="451.0" layoutY="593.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="guineaBissau" alignment="CENTER" layoutX="451.0" layoutY="611.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="guyana" alignment="CENTER" layoutX="451.0" layoutY="629.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="haiti" alignment="CENTER" layoutX="451.0" layoutY="645.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="honduras" alignment="CENTER" layoutX="451.0" layoutY="663.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="hungary" alignment="CENTER" layoutX="645.0" layoutY="13.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="iceland" alignment="CENTER" layoutX="645.0" layoutY="31.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="india" alignment="CENTER" layoutX="645.0" layoutY="49.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="indonesia" alignment="CENTER" layoutX="645.0" layoutY="67.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="iran" alignment="CENTER" layoutX="645.0" layoutY="85.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="iraq" alignment="CENTER" layoutX="645.0" layoutY="103.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="ireland" alignment="CENTER" layoutX="645.0" layoutY="121.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="israel" alignment="CENTER" layoutX="645.0" layoutY="139.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="italy" alignment="CENTER" layoutX="645.0" layoutY="157.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="jamaica" alignment="CENTER" layoutX="645.0" layoutY="175.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="japan" alignment="CENTER" layoutX="645.0" layoutY="193.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="jordan" alignment="CENTER" layoutX="645.0" layoutY="211.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="kazakhstan" alignment="CENTER" layoutX="645.0" layoutY="229.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="kenya" alignment="CENTER" layoutX="645.0" layoutY="247.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="kiribati" alignment="CENTER" layoutX="645.0" layoutY="263.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="kosovo" alignment="CENTER" layoutX="645.0" layoutY="281.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="kuwait" alignment="CENTER" layoutX="645.0" layoutY="299.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="kyrgyzstan" alignment="CENTER" layoutX="645.0" layoutY="317.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="laos" alignment="CENTER" layoutX="645.0" layoutY="335.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="latvia" alignment="CENTER" layoutX="645.0" layoutY="353.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="lebanon" alignment="CENTER" layoutX="645.0" layoutY="371.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="lesotho" alignment="CENTER" layoutX="645.0" layoutY="389.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="liberia" alignment="CENTER" layoutX="645.0" layoutY="407.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="libya" alignment="CENTER" layoutX="645.0" layoutY="425.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="liechtenstein" alignment="CENTER" layoutX="645.0" layoutY="443.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="lithuania" alignment="CENTER" layoutX="645.0" layoutY="461.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="luxembourg" alignment="CENTER" layoutX="645.0" layoutY="479.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="madagascar" alignment="CENTER" layoutX="645.0" layoutY="497.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="malawi" alignment="CENTER" layoutX="644.0" layoutY="520.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="malaysia" alignment="CENTER" layoutX="644.0" layoutY="538.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="maldives" alignment="CENTER" layoutX="644.0" layoutY="556.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="mali" alignment="CENTER" layoutX="644.0" layoutY="574.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="malta" alignment="CENTER" layoutX="644.0" layoutY="592.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="marshallIslands" alignment="CENTER" layoutX="644.0" layoutY="610.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="mauritania" alignment="CENTER" layoutX="644.0" layoutY="628.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="mauritius" alignment="CENTER" layoutX="644.0" layoutY="644.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="mexico" alignment="CENTER" layoutX="644.0" layoutY="662.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="federatedStatesOfMicronesia" alignment="CENTER" layoutX="748.0" layoutY="14.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="moldova" alignment="CENTER" layoutX="748.0" layoutY="32.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="monaco" alignment="CENTER" layoutX="748.0" layoutY="50.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="mongolia" alignment="CENTER" layoutX="748.0" layoutY="68.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="montenegro" alignment="CENTER" layoutX="748.0" layoutY="86.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="morocco" alignment="CENTER" layoutX="748.0" layoutY="104.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="mozambique" alignment="CENTER" layoutX="748.0" layoutY="122.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="myanmar" alignment="CENTER" layoutX="748.0" layoutY="140.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="namibia" alignment="CENTER" layoutX="748.0" layoutY="158.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="nauru" alignment="CENTER" layoutX="748.0" layoutY="176.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="nepal" alignment="CENTER" layoutX="748.0" layoutY="194.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="netherlands" alignment="CENTER" layoutX="748.0" layoutY="212.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="newZealand" alignment="CENTER" layoutX="748.0" layoutY="230.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="nicaragua" alignment="CENTER" layoutX="748.0" layoutY="248.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="niger" alignment="CENTER" layoutX="748.0" layoutY="264.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="nigeria" alignment="CENTER" layoutX="748.0" layoutY="282.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="northKorea" alignment="CENTER" layoutX="748.0" layoutY="300.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="northMacedonia" alignment="CENTER" layoutX="748.0" layoutY="318.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="norway" alignment="CENTER" layoutX="748.0" layoutY="336.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="oman" alignment="CENTER" layoutX="748.0" layoutY="354.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="pakistan" alignment="CENTER" layoutX="748.0" layoutY="372.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="palau" alignment="CENTER" layoutX="748.0" layoutY="390.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="palestine" alignment="CENTER" layoutX="748.0" layoutY="408.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="panama" alignment="CENTER" layoutX="748.0" layoutY="426.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="papuaNewGuinea" alignment="CENTER" layoutX="748.0" layoutY="444.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="paraguay" alignment="CENTER" layoutX="748.0" layoutY="462.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="peru" alignment="CENTER" layoutX="748.0" layoutY="480.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="philippines" alignment="CENTER" layoutX="748.0" layoutY="498.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="poland" alignment="CENTER" layoutX="747.0" layoutY="521.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="portugal" alignment="CENTER" layoutX="747.0" layoutY="539.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="qatar" alignment="CENTER" layoutX="747.0" layoutY="557.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="romania" alignment="CENTER" layoutX="747.0" layoutY="575.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="russia" alignment="CENTER" layoutX="747.0" layoutY="593.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="rwanda" alignment="CENTER" layoutX="747.0" layoutY="611.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="saintKittsAndNevis" alignment="CENTER" layoutX="747.0" layoutY="629.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="saintLucia" alignment="CENTER" layoutX="747.0" layoutY="645.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="saintVincentAndTheGrenadines" alignment="CENTER" layoutX="747.0" layoutY="663.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="samoa" alignment="CENTER" layoutX="926.0" layoutY="13.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="sanMarino" alignment="CENTER" layoutX="926.0" layoutY="31.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="saoTomeAndPrincipe" alignment="CENTER" layoutX="926.0" layoutY="49.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="saudiArabia" alignment="CENTER" layoutX="926.0" layoutY="67.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="senegal" alignment="CENTER" layoutX="926.0" layoutY="85.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="serbia" alignment="CENTER" layoutX="926.0" layoutY="103.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="seychelles" alignment="CENTER" layoutX="926.0" layoutY="121.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="sierraLeone" alignment="CENTER" layoutX="926.0" layoutY="139.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="singapore" alignment="CENTER" layoutX="926.0" layoutY="157.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="slovakia" alignment="CENTER" layoutX="926.0" layoutY="175.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="slovenia" alignment="CENTER" layoutX="926.0" layoutY="193.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="solomonIslands" alignment="CENTER" layoutX="926.0" layoutY="211.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="somalia" alignment="CENTER" layoutX="926.0" layoutY="229.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="southAfrica" alignment="CENTER" layoutX="926.0" layoutY="247.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="southKorea" alignment="CENTER" layoutX="926.0" layoutY="263.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="southSudan" alignment="CENTER" layoutX="926.0" layoutY="281.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="spain" alignment="CENTER" layoutX="926.0" layoutY="299.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="sriLanka" alignment="CENTER" layoutX="926.0" layoutY="317.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="sudan" alignment="CENTER" layoutX="926.0" layoutY="335.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="suriname" alignment="CENTER" layoutX="926.0" layoutY="353.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="sweden" alignment="CENTER" layoutX="926.0" layoutY="371.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="switzerland" alignment="CENTER" layoutX="926.0" layoutY="389.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="syria" alignment="CENTER" layoutX="926.0" layoutY="407.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="tajikistan" alignment="CENTER" layoutX="926.0" layoutY="425.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="tanzania" alignment="CENTER" layoutX="926.0" layoutY="443.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="thailand" alignment="CENTER" layoutX="926.0" layoutY="461.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="timorLeste" alignment="CENTER" layoutX="926.0" layoutY="479.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="togo" alignment="CENTER" layoutX="926.0" layoutY="497.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="tonga" alignment="CENTER" layoutX="925.0" layoutY="520.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="trinidadAndTobago" alignment="CENTER" layoutX="925.0" layoutY="538.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="tunisia" alignment="CENTER" layoutX="925.0" layoutY="556.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="turkiye" alignment="CENTER" layoutX="925.0" layoutY="574.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="turkmenistan" alignment="CENTER" layoutX="925.0" layoutY="592.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="tuvalu" alignment="CENTER" layoutX="925.0" layoutY="610.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="uganda" alignment="CENTER" layoutX="925.0" layoutY="628.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="ukraine" alignment="CENTER" layoutX="925.0" layoutY="644.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="unitedArabEmirates" alignment="CENTER" layoutX="925.0" layoutY="662.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="unitedKingdom" alignment="CENTER" layoutX="1061.0" layoutY="13.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="unitedStatesOfAmerica" alignment="CENTER" layoutX="1061.0" layoutY="31.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="uruguay" alignment="CENTER" layoutX="1061.0" layoutY="49.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="uzbekistan" alignment="CENTER" layoutX="1061.0" layoutY="67.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="vanuatu" alignment="CENTER" layoutX="1061.0" layoutY="85.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="vaticanCity" alignment="CENTER" layoutX="1061.0" layoutY="103.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="venezuela" alignment="CENTER" layoutX="1061.0" layoutY="121.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="vietnam" alignment="CENTER" layoutX="1061.0" layoutY="139.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="yemen" alignment="CENTER" layoutX="1061.0" layoutY="157.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="zambia" alignment="CENTER" layoutX="1061.0" layoutY="175.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="zimbabwe" alignment="CENTER" layoutX="1061.0" layoutY="193.0" prefHeight="26.0" prefWidth="29.0" scaleX="0.5" scaleY="0.5" styleClass="small-text-field" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="13.0" />
+         </font></TextField>
+      <Label fx:id="errorLabel" layoutX="1067.0" layoutY="368.0" prefHeight="222.0" prefWidth="110.0" textFill="RED" />
+      <Button layoutX="1065.0" layoutY="308.0" mnemonicParsing="false" onAction="#resetDefaults" stylesheets="@styles.css" text="Reset Defaults">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font>
+      </Button>
+      <Hyperlink layoutX="324.0" layoutY="20.0" onAction="#onLinkClick" text="Afghanistan">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="324.0" layoutY="37.0" onAction="#onLinkClick" text="Albania">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="324.0" layoutY="56.0" onAction="#onLinkClick" text="Algeria">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="324.0" layoutY="73.0" onAction="#onLinkClick" text="Andorra">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="324.0" layoutY="91.0" onAction="#onLinkClick" text="Angola">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="324.0" layoutY="109.0" onAction="#onLinkClick" text="Antigua &amp; Barbuda">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="324.0" layoutY="128.0" onAction="#onLinkClick" text="Argentina">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="324.0" layoutY="145.0" onAction="#onLinkClick" text="Armenia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="324.0" layoutY="164.0" onAction="#onLinkClick" text="Australia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="324.0" layoutY="181.0" onAction="#onLinkClick" text="Austria">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="324.0" layoutY="199.0" onAction="#onLinkClick" text="Azerbaijan">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="322.0" layoutY="217.0" onAction="#onLinkClick" text="The Bahamas">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="324.0" layoutY="236.0" onAction="#onLinkClick" text="Bahrain">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="324.0" layoutY="253.0" onAction="#onLinkClick" text="Bangladesh">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="324.0" layoutY="272.0" onAction="#onLinkClick" text="Barbados">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="324.0" layoutY="289.0" onAction="#onLinkClick" text="Belarus">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="324.0" layoutY="308.0" onAction="#onLinkClick" text="Belgium">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="324.0" layoutY="325.0" onAction="#onLinkClick" text="Belize">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="324.0" layoutY="343.0" onAction="#onLinkClick" text="Benin">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="324.0" layoutY="361.0" onAction="#onLinkClick" text="Bhutan">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="324.0" layoutY="380.0" onAction="#onLinkClick" text="Bolivia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="324.0" layoutY="397.0" onAction="#onLinkClick" text="Bosnia &amp; Herzegovina">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="324.0" layoutY="416.0" onAction="#onLinkClick" text="Botswana">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="324.0" layoutY="433.0" onAction="#onLinkClick" text="Brazil">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="324.0" layoutY="452.0" onAction="#onLinkClick" text="Brunei">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="324.0" layoutY="469.0" onAction="#onLinkClick" text="Bulgaria">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="324.0" layoutY="488.0" onAction="#onLinkClick" text="Burkina Faso">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="324.0" layoutY="505.0" onAction="#onLinkClick" text="Burundi">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="324.0" layoutY="521.0" onAction="#onLinkClick" text="Cabo Verde">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="324.0" layoutY="540.0" onAction="#onLinkClick" text="Cambodia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="324.0" layoutY="557.0" onAction="#onLinkClick" text="Cameroon">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="324.0" layoutY="576.0" onAction="#onLinkClick" text="Canada">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="325.0" layoutY="594.0" onAction="#onLinkClick" text="Central African Republic">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="325.0" layoutY="612.0" onAction="#onLinkClick" text="Chad">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="325.0" layoutY="630.0" onAction="#onLinkClick" text="Chile">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="325.0" layoutY="646.0" onAction="#onLinkClick" text="China">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="325.0" layoutY="664.0" onAction="#onLinkClick" text="Colombia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="476.0" layoutY="19.0" onAction="#onLinkClick" text="Comoros">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="476.0" layoutY="37.0" onAction="#onLinkClick" text="Democratic Republic Of The Congo">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="476.0" layoutY="55.0" onAction="#onLinkClick" text="Dominica">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="476.0" layoutY="74.0" onAction="#onLinkClick" text="Republic Of The Congo">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="476.0" layoutY="92.0" onAction="#onLinkClick" text="Costa Rica">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="476.0" layoutY="110.0" onAction="#onLinkClick" text="Cote D'Ivoire">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="476.0" layoutY="127.0" onAction="#onLinkClick" text="Croatia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="476.0" layoutY="145.0" onAction="#onLinkClick" text="Cuba">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="476.0" layoutY="164.0" onAction="#onLinkClick" text="Cyprus">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="476.0" layoutY="181.0" onAction="#onLinkClick" text="Czech Republic">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="476.0" layoutY="198.0" onAction="#onLinkClick" text="Denmark">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="474.0" layoutY="217.0" onAction="#onLinkClick" text="Djibouti">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="476.0" layoutY="236.0" onAction="#onLinkClick" text="Dominican Republic">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="476.0" layoutY="253.0" onAction="#onLinkClick" text="Ecuador">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="476.0" layoutY="269.0" onAction="#onLinkClick" text="Egypt">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="476.0" layoutY="287.0" onAction="#onLinkClick" text="El Salvador">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="476.0" layoutY="305.0" onAction="#onLinkClick" text="Equatorial Guinea">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="476.0" layoutY="324.0" onAction="#onLinkClick" text="Eritrea">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="476.0" layoutY="341.0" onAction="#onLinkClick" text="Estonia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="476.0" layoutY="360.0" onAction="#onLinkClick" text="Eswatini">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="476.0" layoutY="378.0" onAction="#onLinkClick" text="Ethiopia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="476.0" layoutY="396.0" onAction="#onLinkClick" text="Fiji">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="476.0" layoutY="413.0" onAction="#onLinkClick" text="Finland">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="476.0" layoutY="432.0" onAction="#onLinkClick" text="France">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="476.0" layoutY="450.0" onAction="#onLinkClick" text="Gabon">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="476.0" layoutY="468.0" onAction="#onLinkClick" text="The Gambia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="476.0" layoutY="486.0" onAction="#onLinkClick" text="Georgia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="476.0" layoutY="504.0" onAction="#onLinkClick" text="Germany">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="476.0" layoutY="526.0" onAction="#onLinkClick" text="Ghana">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="476.0" layoutY="545.0" onAction="#onLinkClick" text="Greece">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="476.0" layoutY="562.0" onAction="#onLinkClick" text="Grenada">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="476.0" layoutY="581.0" onAction="#onLinkClick" text="Guatemala">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="477.0" layoutY="599.0" onAction="#onLinkClick" text="Guinea">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="477.0" layoutY="617.0" onAction="#onLinkClick" text="Guinea-Bissau">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="477.0" layoutY="635.0" onAction="#onLinkClick" text="Guyana">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="477.0" layoutY="649.0" onAction="#onLinkClick" text="Haiti">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="477.0" layoutY="667.0" onAction="#onLinkClick" text="Honduras">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="668.0" layoutY="19.0" onAction="#onLinkClick" text="Hungary">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="668.0" layoutY="36.0" onAction="#onLinkClick" text="Iceland">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="668.0" layoutY="55.0" onAction="#onLinkClick" text="India">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="668.0" layoutY="72.0" onAction="#onLinkClick" text="Indonesia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="668.0" layoutY="90.0" onAction="#onLinkClick" text="Iran">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="668.0" layoutY="109.0" onAction="#onLinkClick" text="Iraq">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="668.0" layoutY="127.0" onAction="#onLinkClick" text="Ireland">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="668.0" layoutY="144.0" onAction="#onLinkClick" text="Israel">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="668.0" layoutY="163.0" onAction="#onLinkClick" text="Italy">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="668.0" layoutY="180.0" onAction="#onLinkClick" text="Jamaica">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="668.0" layoutY="199.0" onAction="#onLinkClick" text="Japan">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="666.0" layoutY="217.0" onAction="#onLinkClick" text="Jordan">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="668.0" layoutY="235.0" onAction="#onLinkClick" text="Kazakhstan">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="668.0" layoutY="252.0" onAction="#onLinkClick" text="Kenya">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="668.0" layoutY="269.0" onAction="#onLinkClick" text="Kiribati">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="668.0" layoutY="286.0" onAction="#onLinkClick" text="Kosovo">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="668.0" layoutY="304.0" onAction="#onLinkClick" text="Kuwait">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="668.0" layoutY="322.0" onAction="#onLinkClick" text="Kyrgyzstan">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="668.0" layoutY="341.0" onAction="#onLinkClick" text="Laos">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="668.0" layoutY="358.0" onAction="#onLinkClick" text="Latvia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="668.0" layoutY="377.0" onAction="#onLinkClick" text="Lebanon">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="668.0" layoutY="394.0" onAction="#onLinkClick" text="Lesotho">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="668.0" layoutY="413.0" onAction="#onLinkClick" text="Liberia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="668.0" layoutY="430.0" onAction="#onLinkClick" text="Libya">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="668.0" layoutY="448.0" onAction="#onLinkClick" text="Liechtenstein">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="668.0" layoutY="467.0" onAction="#onLinkClick" text="Lithuania">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="668.0" layoutY="484.0" onAction="#onLinkClick" text="Luxembourg">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="668.0" layoutY="503.0" onAction="#onLinkClick" text="Madagascar">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="668.0" layoutY="526.0" onAction="#onLinkClick" text="Malawi">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="668.0" layoutY="544.0" onAction="#onLinkClick" text="Malaysia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="668.0" layoutY="561.0" onAction="#onLinkClick" text="Maldives">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="668.0" layoutY="579.0" onAction="#onLinkClick" text="Mali">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="669.0" layoutY="597.0" onAction="#onLinkClick" text="Malta">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="669.0" layoutY="616.0" onAction="#onLinkClick" text="Marshall Islands">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="669.0" layoutY="633.0" onAction="#onLinkClick" text="Mauritania">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="669.0" layoutY="650.0" onAction="#onLinkClick" text="Mauritius">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="669.0" layoutY="668.0" onAction="#onLinkClick" text="Mexico">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="771.0" layoutY="20.0" onAction="#onLinkClick" text="Federated States of Micronesia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="771.0" layoutY="38.0" onAction="#onLinkClick" text="Moldova">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="771.0" layoutY="56.0" onAction="#onLinkClick" text="Monaco">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="771.0" layoutY="73.0" onAction="#onLinkClick" text="Mongolia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="771.0" layoutY="92.0" onAction="#onLinkClick" text="Montenegro">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="771.0" layoutY="109.0" onAction="#onLinkClick" text="Morocco">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="771.0" layoutY="128.0" onAction="#onLinkClick" text="Mozambique">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="771.0" layoutY="145.0" onAction="#onLinkClick" text="Myanmar">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="771.0" layoutY="164.0" onAction="#onLinkClick" text="Namibia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="771.0" layoutY="181.0" onAction="#onLinkClick" text="Nauru">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="771.0" layoutY="199.0" onAction="#onLinkClick" text="Nepal">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="769.0" layoutY="217.0" onAction="#onLinkClick" text="Netherlands">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="771.0" layoutY="236.0" onAction="#onLinkClick" text="New Zealand">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="771.0" layoutY="253.0" onAction="#onLinkClick" text="Nicaragua">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="771.0" layoutY="269.0" onAction="#onLinkClick" text="Niger">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="771.0" layoutY="288.0" onAction="#onLinkClick" text="Nigeria">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="771.0" layoutY="305.0" onAction="#onLinkClick" text="North Korea">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="771.0" layoutY="323.0" onAction="#onLinkClick" text="North Macedonia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="771.0" layoutY="342.0" onAction="#onLinkClick" text="Norway">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="771.0" layoutY="360.0" onAction="#onLinkClick" text="Oman">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="771.0" layoutY="377.0" onAction="#onLinkClick" text="Pakistan">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="771.0" layoutY="396.0" onAction="#onLinkClick" text="Palau">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="771.0" layoutY="413.0" onAction="#onLinkClick" text="Palestine">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="771.0" layoutY="432.0" onAction="#onLinkClick" text="Panama">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="771.0" layoutY="449.0" onAction="#onLinkClick" text="Papua New Guinea">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="771.0" layoutY="467.0" onAction="#onLinkClick" text="Paraguay">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="771.0" layoutY="485.0" onAction="#onLinkClick" text="Peru">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="771.0" layoutY="504.0" onAction="#onLinkClick" text="Philippines">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="771.0" layoutY="526.0" onAction="#onLinkClick" text="Poland">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="771.0" layoutY="545.0" onAction="#onLinkClick" text="Portugal">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="771.0" layoutY="563.0" onAction="#onLinkClick" text="Qatar">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="771.0" layoutY="580.0" onAction="#onLinkClick" text="Romania">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="772.0" layoutY="599.0" onAction="#onLinkClick" text="Russia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="772.0" layoutY="617.0" onAction="#onLinkClick" text="Rwanda">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="772.0" layoutY="635.0" onAction="#onLinkClick" text="Saint Kitts &amp; Nevis">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="772.0" layoutY="651.0" onAction="#onLinkClick" text="Saint Lucia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="772.0" layoutY="668.0" onAction="#onLinkClick" text="Saint Vincent &amp; The Grenadines">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="949.0" layoutY="17.0" onAction="#onLinkClick" text="Samoa">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="950.0" layoutY="36.0" onAction="#onLinkClick" text="San Marino">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="950.0" layoutY="55.0" onAction="#onLinkClick" text="Sao Tome &amp; Principe">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="950.0" layoutY="73.0" onAction="#onLinkClick" text="Saudi Arabia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="950.0" layoutY="91.0" onAction="#onLinkClick" text="Senegal">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="950.0" layoutY="108.0" onAction="#onLinkClick" text="Serbia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="950.0" layoutY="127.0" onAction="#onLinkClick" text="Seychelles">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="950.0" layoutY="145.0" onAction="#onLinkClick" text="Sierra Leone">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="950.0" layoutY="162.0" onAction="#onLinkClick" text="Singapore">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="950.0" layoutY="181.0" onAction="#onLinkClick" text="Slovakia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="950.0" layoutY="199.0" onAction="#onLinkClick" text="Slovenia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="948.0" layoutY="217.0" onAction="#onLinkClick" text="Solomon Islands">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="950.0" layoutY="234.0" onAction="#onLinkClick" text="Somalia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="950.0" layoutY="253.0" onAction="#onLinkClick" text="South Africa">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="950.0" layoutY="269.0" onAction="#onLinkClick" text="South Korea">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="950.0" layoutY="287.0" onAction="#onLinkClick" text="South Sudan">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="950.0" layoutY="304.0" onAction="#onLinkClick" text="Spain">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="950.0" layoutY="322.0" onAction="#onLinkClick" text="Sri Lanka">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="950.0" layoutY="340.0" onAction="#onLinkClick" text="Sudan">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="950.0" layoutY="359.0" onAction="#onLinkClick" text="Suriname">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="950.0" layoutY="376.0" onAction="#onLinkClick" text="Sweden">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="950.0" layoutY="395.0" onAction="#onLinkClick" text="Switzerland">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="950.0" layoutY="413.0" onAction="#onLinkClick" text="Syria">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="950.0" layoutY="430.0" onAction="#onLinkClick" text="Tajikistan">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="950.0" layoutY="448.0" onAction="#onLinkClick" text="Tanzania">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="950.0" layoutY="466.0" onAction="#onLinkClick" text="Thailand">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="950.0" layoutY="484.0" onAction="#onLinkClick" text="Timor-Leste">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="950.0" layoutY="502.0" onAction="#onLinkClick" text="Togo">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="950.0" layoutY="525.0" onAction="#onLinkClick" text="Tonga">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="950.0" layoutY="544.0" onAction="#onLinkClick" text="Trinidad &amp; Tobago">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="950.0" layoutY="561.0" onAction="#onLinkClick" text="Tunisia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="950.0" layoutY="579.0" onAction="#onLinkClick" text="Turkiye">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="951.0" layoutY="596.0" onAction="#onLinkClick" text="Turkmenistan">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="951.0" layoutY="615.0" onAction="#onLinkClick" text="Tuvalu">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="951.0" layoutY="633.0" onAction="#onLinkClick" text="Uganda">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="951.0" layoutY="650.0" onAction="#onLinkClick" text="Ukraine">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="951.0" layoutY="668.0" onAction="#onLinkClick" text="United Arab Emirates">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="1087.0" layoutY="19.0" onAction="#onLinkClick" text="United Kingdom">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="1087.0" layoutY="38.0" onAction="#onLinkClick" text="United States of America">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="1087.0" layoutY="57.0" onAction="#onLinkClick" text="Uruguay">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="1087.0" layoutY="76.0" onAction="#onLinkClick" text="Uzbekistan">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="1087.0" layoutY="95.0" onAction="#onLinkClick" text="Vanuatu">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="1087.0" layoutY="112.0" onAction="#onLinkClick" text="Vatican City">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="1087.0" layoutY="129.0" onAction="#onLinkClick" text="Venezuela">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="1087.0" layoutY="148.0" onAction="#onLinkClick" text="Vietnam">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="1087.0" layoutY="164.0" onAction="#onLinkClick" text="Yemen">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="1087.0" layoutY="183.0" onAction="#onLinkClick" text="Zambia">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="1087.0" layoutY="200.0" onAction="#onLinkClick" text="Zimbabwe">
+         <font>
+            <Font name="Eras Demi ITC" size="9.0" />
+         </font>
+      </Hyperlink>
+   </children>
+</AnchorPane>

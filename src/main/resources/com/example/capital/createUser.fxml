@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" style="-fx-background-color: #c3fbce;" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.capital.controllers.CreateUserController">
+   <children>
+      <ImageView fitHeight="422.0" fitWidth="307.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@logo.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="username" layoutX="482.0" layoutY="220.0" promptText="Username" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="25.0" />
+         </font></TextField>
+      <PasswordField fx:id="password" layoutX="482.0" layoutY="307.0" promptText="Password" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="25.0" />
+         </font></PasswordField>
+      <PasswordField fx:id="passwordReType" layoutX="482.0" layoutY="387.0" promptText="Re-type password" stylesheets="@styles.css">
+         <font>
+            <Font name="Eras Demi ITC" size="25.0" />
+         </font></PasswordField>
+      <Button layoutX="598.0" layoutY="492.0" mnemonicParsing="false" onAction="#createUser" scaleX="2.0" scaleY="2.0" stylesheets="@styles.css" text="Create User">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></Button>
+      <Hyperlink layoutX="616.0" layoutY="566.0" onAction="#cancel" scaleX="2.0" scaleY="2.0" text="cancel">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></Hyperlink>
+      <Label fx:id="existingUsernameErrorLabel" layoutX="910.0" layoutY="265.0" prefHeight="14.0" prefWidth="155.0" scaleX="2.0" scaleY="2.0" textFill="RED">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></Label>
+      <Label fx:id="passwordErrorLabel" layoutX="921.0" layoutY="340.0" prefHeight="14.0" prefWidth="172.0" scaleX="2.0" scaleY="2.0" textFill="RED">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></Label>
+      <Label fx:id="passwordErrorLabel2" layoutX="918.0" layoutY="406.0" prefHeight="14.0" prefWidth="170.0" scaleX="2.0" scaleY="2.0" textFill="RED">
+         <font>
+            <Font name="Eras Demi ITC" size="12.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
