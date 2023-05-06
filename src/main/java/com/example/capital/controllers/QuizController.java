@@ -80,6 +80,7 @@ public class QuizController {
     submit = true;
     answerBox.clear();
     answerBox.setDisable(false);
+    answerBox.requestFocus();
   }
 
   private boolean answerIsCorrect() {
